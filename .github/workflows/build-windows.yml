@@ -24,7 +24,6 @@ jobs:
         run: uv sync
 
       - name: Build EXE
-        run: |
           run: uv run pyinstaller --onefile --windowed --collect-all nicegui --name Notes app/main.py
 
       - name: Upload Artifact
