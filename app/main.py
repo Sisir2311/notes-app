@@ -5,5 +5,8 @@ create_home_page()
 
 ui.run(
     title="Notes",
-    reload=True
+    host="127.0.0.1",
+    port=8080,
+    reload=False,
+    show=True,
 )
